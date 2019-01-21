@@ -1,0 +1,45 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+<body>
+<div style="background-color: black; color: white; padding: 10px">
+    <h1>Toys</h1>
+    <form action="@{/search}" align="right">
+        <input name="name" type="search" class="item-search" data-th-value="${name}">
+        <button type="submit">Search</button>
+    </form>
+</div>
+<p><img src="../file/media/item.jpg"titlle="Toys" height="500" width="493" border="10"></p>
+
+<p>
+<table>
+    <tr>
+        <td><img src="../file/media/item-raccoon.jpg" title="Add this toy to your basket" height="193" width="300" border="3" align="middle"></td>
+        <td><img src="../file/media/item-pinguin.jpg" title="Add this toy to your basket" height="193" width="300" border="3" align="middle"></td>
+        <td><img src="../file/media/item-fox.jpg" title="Add this toy to your basket" height="193" width="300" border="3" align="middle"></td>
+        <td><img src="../file/media/item-bear.jpg" title="Add this toy to your basket" height="193" width="300" border="3" align="middle"></td>
+        <td><img src="../file/media/item-bear1.jpg" title="Add this toy to your basket" height="193" width="300" border="3" align="middle"></td>
+        <td><img src="../file/media/item-bear3.jpg" title="Add this toy to your basket" height="193" width="300" border="3" align="middle"></td>
+        <td><img src="../file/media/item-bear4.jpg" title="Add this toy to your basket" height="193" width="300" border="3" align="middle"></td>
+    </tr>
+    <tr>
+        <td> Toy Raccoon <input type="submit" value="Add"></td>
+        <td> Toy Pinguin <input type="submit" value="Add"></td>
+        <td> Toy Fox <input type="submit" value="Add"></td>
+        <td> Toy Bear <input type="submit" value="Add"></td>
+        <td> Toy Bear <input type="submit" value="Add"></td>
+        <td> Toy Bear <input type="submit" value="Add"></td>
+        <td> Toy Bear <input type="submit" value="Add"></td>
+    </tr>
+</table>
+</p>
+
+
+</body>
+</html>

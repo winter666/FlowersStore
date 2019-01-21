@@ -1,0 +1,57 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <style>
+        .leftimg {
+            float:left; /* Выравнивание по левому краю */
+            margin: 7px 7px 7px 0; /* Отступы вокруг картинки */
+        }
+        .rightimg  {
+            float: right; /* Выравнивание по правому краю  */
+            margin: 7px 0 7px 7px; /* Отступы вокруг картинки */
+        }
+    </style>
+</head>
+<body>
+<div style="background-color: black; color: white; padding: 10px">
+    <h1>Lilies</h1>
+
+<form action="@{/search}" align="right">
+    <input name="name" type="search" class="item-search" data-th-value="${name}">
+    <button type="submit">Search</button>
+</form>
+
+</div>
+<p><img src="../file/media/lily.jpg"titlle="Lilies" height="500" width="500" border="10" class="leftimg"><big>
+    По одной из легенд, в цветы лилии превратились капли грудного молока матери богини - Геры, когда она пыталась покормить маленького Геракла, сына Зевса и царицы Алкмены.
+    Непослушный Геракл во время кормления оттолкнул богиню, молоко брызнуло в разные стороны, и на небе появился Млечный Путь, а на земле - лилии.
+<p>Глубоко символичное значение приобрела лилия и в христианстве. На фресках мастеров Возрождения святые изображались с белоснежной лилией в руках - символом чистоты и непорочности.</p>
+</big>
+</p>
+
+<p>
+<table>
+    <tr>
+        <td><img src="../file/media/lily-madonna.jpg" title="Add Lily Madonna to your bunch" height="193" width="300" border="3" align="middle"></td>
+        <td><img src="../file/media/lily-novecento.jpg" title="Add Nove Cento to your bunch" height="193" width="300" border="3" align="middle"></td>
+        <td><img src="../file/media/lily-aaron.jpg" title="Add Lily Aaron to your bunch" height="193" width="300" border="3" align="middle"></td>
+        <td><img src="../file/media/lily-mapira.jpg" title="Add Mapira to your bunch" height="193" width="300" border="3" align="middle"></td>
+    </tr>
+    <tr>
+        <td> Madonna <input type="submit" value="Add"></td>
+        <td> Nove Cento <input type="submit" value="Add"></td>
+        <td> Aaron <input type="submit" value="Add"></td>
+        <td> Mapira <input type="submit" value="Add"></td>
+    </tr>
+</table>
+</p>
+
+<p><a href="main.html" title="Back to menu"><-Back</a></p>
+
+</body>
+</html>

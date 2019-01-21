@@ -1,0 +1,61 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <style>
+        .leftimg {
+            float:left; /* Выравнивание по левому краю */
+            margin: 7px 7px 7px 0; /* Отступы вокруг картинки */
+        }
+        .rightimg  {
+            float: right; /* Выравнивание по правому краю  */
+            margin: 7px 0 7px 7px; /* Отступы вокруг картинки */
+        }
+    </style>
+</head>
+<body>
+<div style="background-color: black; color: white; padding: 10px">
+    <h1>Roses</h1>
+
+<form action="@{/search}" align="right">
+    <input name="name" type="search" class="item-search" data-th-value="${name}">
+    <button type="submit">Search</button>
+</form>
+
+</div>
+<p><img src="../file/media/rose.jpg"titlle="Roses" height="500" width="493" border="10" class="leftimg">
+    <big>Розы – безусловно, очень красивые цветы. Откуда произошли розы? У роз существует очень интересная история и легенды их происхождения.
+
+   <p> Во многих культурах роза считается царицей среди цветов и является объектом восхищения и поклонения, символом страстной любви.
+    Древнегреческая легенда рассказывает, что богиня любви Афродита бежала к своему тяжело раненному возлюбленному Дионису сквозь кусты роз. Острые шипы впивались в ее тело до крови, которая и окрасила лепестки роз в красный цвет.</p>
+
+    <p>Роза занимала особое место в быту многих народов. Греки усыпали этими цветами путь победителей, влюбленные дарили их друг другу, невесты украшали свои наряды отдельными розами и целыми венками из них. Кроме того, древние греки считали розу символом бесконечности, поэтому у них существовал обычай украшать ее цветами урны с прахом умерших. По их мнению, чудодейственные свойства розы помогали вернуть красоту, отдалить старость и уберечь останки от разложения. Вязальщики венков из роз пользовались в Древней Греции большим уважением.
+    </p> Даже великий философ Конфуций воспевал розу и поклонялся ей как божественному цветку.</big></p>
+<p>
+    <table>
+     <tr>
+        <td><img src="../file/media/red-rose.jpg" title="Add red rose to your bunch" height="193" width="300" border="3" align="middle"></td>
+        <td><img src="../file/media/pink-rose.jpg" title="Add pink rose to your bunch" height="193" width="300" border="3" align="middle"></td>
+        <td><img src="../file/media/white-rose.jpg" title="Add white rose to your bunch" height="193" width="300" border="3" align="middle"></td>
+        <td><img src="../file/media/yellow-rose.jpg" title="Add yellow rose to your bunch" height="193" width="300" border="3" align="middle"></td>
+        <td><img src="../file/media/orange-rose.jpg" title="Add orange rose to your bunch" height="193" width="300" border="3" align="middle"></td>
+     </tr>
+     <tr>
+        <td> Red Rose <input type="submit" value="Add"></td>
+        <td> Pink Rose <input type="submit" value="Add"></td>
+        <td> White Rose <input type="submit" value="Add"></td>
+        <td> Yellow Rose <input type="submit" value="Add"></td>
+        <td> Orange Rose <input type="submit" value="Add"></td>
+     </tr>
+    </table>
+</p>
+
+
+
+<p><a href="main.html" title="Back to menu"><-Back</a></p>
+</body>
+</html>

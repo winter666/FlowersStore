@@ -1,0 +1,57 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <style>
+        .leftimg {
+            float:left; /* Выравнивание по левому краю */
+            margin: 7px 7px 7px 0; /* Отступы вокруг картинки */
+        }
+        .rightimg  {
+            float: right; /* Выравнивание по правому краю  */
+            margin: 7px 0 7px 7px; /* Отступы вокруг картинки */
+        }
+    </style>
+</head>
+<body>
+<div style="background-color: black; color: white; padding: 10px">
+    <h1>Tulips</h1>
+<form action="@{/search}" align="right">
+    <input name="name" type="search" class="item-search" data-th-value="${name}">
+    <button type="submit">Search</button>
+</form>
+
+</div>
+<p><img src="../file/media/tulip.jpg"titlle="Tulips" height="480" width="510" border="10" class="leftimg">
+   <big>Цветы тюльпанов очень любили турецкие султаны, желая иметь в своих садах ковры из живых цветов.
+       Во времена ночных пиршеств под открытым небом по велению владык на обширные клумбы выпускали черепах с прикрепленными к панцирю зажженными свечами.
+       Блуждающие огоньки среди красивых цветов были великолепны.<p>Тюльпан является символом любви, счастья, успеха, богатства.</p>
+На языке цветов  красный тюльпан означает признание в страстной любви, розовый – знак счастья, радости, белый символизируют нежность,
+чистоту, искреннюю любовь. Желтые тюльпаны, вопреки распространенному мнению, вовсе не знак разлуки и измены. По легенде в бутоне желтого тюльпана заложено счастье, он является
+символом счастливой улыбки любимого человека, радости; сиреневые тюльпаны дарят в знак привязанности, душевного тепла.</big>
+</p>
+
+<p>
+  <table>
+    <tr>
+        <td><img src="../file/media/redgeorgia-tulip.jpg" title="Add red georgia to your bunch" height="193" width="200" border="3" align="middle"></td>
+        <td><img src="../file/media/pinkimpression-tulip.jpg" title="Add pink impression to your bunch" height="193" width="200" border="3" align="middle"></td>
+        <td><img src="../file/media/queenofthenight-tulip.jpg" title="Add queen of the night to your bunch" height="193" width="200" border="3" align="middle"></td>
+        <td><img src="../file/media/dreamland-tulip.jpg" title="Add dreamland tulip to your bunch" height="193" width="200" border="3" align="middle"></td>
+    </tr>
+    <tr>
+        <td> Red Georgia <input type="submit" value="Add"></td>
+        <td> Pink Impression <input type="submit" value="Add"></td>
+        <td> Queen of the Night <input type="submit" value="Add"></td>
+        <td> Dreamland Tulip <input type="submit" value="Add"></td>
+    </tr>
+  </table>
+</p>
+
+<p><a href="main.html" title="Back to menu"><-Back</a></p>
+</body>
+</html>

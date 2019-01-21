@@ -1,0 +1,65 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <style>
+        .leftimg {
+            float:left; /* Выравнивание по левому краю */
+            margin: 7px 7px 7px 0; /* Отступы вокруг картинки */
+        }
+        .rightimg  {
+            float: right; /* Выравнивание по правому краю  */
+            margin: 7px 0 7px 7px; /* Отступы вокруг картинки */
+        }
+    </style>
+</head>
+<body>
+<div style="background-color: black; color: white; padding: 10px">
+    <h1>Chrysanthemums</h1>
+
+<form action="@{/search}" align="right">
+    <input name="name" type="search" class="item-search" data-th-value="${name}">
+    <button type="submit">Search</button>
+</form>
+
+</div>
+<p><img src="../file/media/orig.jpg"titlle="Chrysanthemums" height="445" width="615" border="10" class="leftimg"><big>
+    Хризантемы… Перед этим цветком преклоняются, ему посвящено много стихов, мифов, легенд. Они настолько совершенны, что не перестают восхищать своей красотой.
+    Более 10 000 сортов хризантем существует на свете, и трудно с достоверностью утверждать, когда именно древние народы начали заниматься их разведением.
+    Однако изображения этих цветов археологи находят на осколках мраморных и гончарных изделий, в орнаментах древних сооружений, в узорах восточного фарфора и даже на монетах, сохранившихся с древнейших времен.
+    <p>Поклонение в Японии хризантеме – примета сегодняшнего дня. Еще в прошлом веке изображение ее было священно, и правом носить материю с таким изображением пользовались только члены императорского дома.
+    Остальные же смертные, дерзнувшие украсить свой наряд хризантемой, карались смертью.
+    В Японии хризантема украшает государственные флаги, монеты, почтовые марки и высший государственный орден.</p>
+    В Италии хризантема – символ любви, а
+    во Вьетнаме хризантемы олицетворяют душевную чистоту и ясность разума.
+</big>
+</p>
+
+<p>
+<table>
+    <tr>
+        <td><img src="../file/media/orig-blue.jpg" title="Add Blue Chrysanthemum to your bunch" height="193" width="300" border="3" align="middle"></td>
+        <td><img src="../file/media/orig-pink.jpg" title="Add Pink Chrysanthemum to your bunch" height="193" width="300" border="3" align="middle"></td>
+        <td><img src="../file/media/orig-white.jpg" title="Add White Chrysanthemum to your bunch" height="193" width="300" border="3" align="middle"></td>
+        <td><img src="../file/media/orig-violet.jpg" title="Add Violet Chrysanthemum to your bunch" height="193" width="300" border="3" align="middle"></td>
+        <td><img src="../file/media/orig-yellow.jpg" title="Add Yellow Chrysanthemum to your bunch" height="193" width="300" border="3" align="middle"></td>
+    </tr>
+    <tr>
+        <td> Blue Chrysanthemum <input type="submit" value="Add"></td>
+        <td> Pink Chrysanthemum <input type="submit" value="Add"></td>
+        <td> White Chrysanthemum <input type="submit" value="Add"></td>
+        <td> Violet Chrysanthemum <input type="submit" value="Add"></td>
+        <td> Yellow Chrysanthemum <input type="submit" value="Add"></td>
+    </tr>
+</table>
+</p>
+
+
+<p><a href="main.html" title="Back to menu"><-Back</a></p>
+
+</body>
+</html>
